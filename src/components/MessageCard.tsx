@@ -3,7 +3,7 @@ import { useState } from 'react'
 const defaultMessages = [
   {
     id: 1,
-    message: "You've worked so hard for this moment. I believe in you completely. Every late night, every sacrifice - it all leads to this success. You're going to shine! ✨",
+    message: "You've worked so hard for this moment. I believe in you completely. Every sleepless night, every sacrifice - it all leads to this success. You're going to shine! ✨",
     category: "Belief"
   },
   {
@@ -18,7 +18,7 @@ const defaultMessages = [
   },
   {
     id: 4,
-    message: "Take a deep breath. You are prepared, you are capable, and you are loved. Whatever happens, I'm here for you. Always. 💖",
+    message: "Take a deep breath. You are prepared, you are capable, and you are loved. Whatever happens, I'm here for you. You are and will be my beautiful future interior designer, my wife. Always. 💖",
     category: "Support"
   },
   {
@@ -33,13 +33,17 @@ const defaultMessages = [
   },
   {
     id: 7,
-    message: "Success isn't just about the grades - it's about the incredible person you're becoming. I'm lucky to watch you grow and achieve your dreams. 🌹",
+    message: "This exam doesn't limit you - it shows how much of an incredible person you're becoming. I'm lucky to watch you grow and achieve your dreams. 🌹",
     category: "Growth"
   },
   {
     id: 8,
-    message: "Close your eyes and visualize your success. Now open them and make it happen. I'm sending you all my positive energy and love. You're unstoppable! 💫",
+    message: "Close your eyes and visualize your success. Now open them and make it happen. I'm sending you all admiration and love. May God be with you all the way! 💫",
     category: "Visualization"
+  },
+  {
+    id: 9,
+    message: "Look at this girl. Sweet with cuteness; Great with Confidence; Amazing with her Brilliance. You will go there, do those exams and you will make your husband swell with pride. 💖",
   }
 ]
 
