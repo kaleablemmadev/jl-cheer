@@ -90,7 +90,7 @@ function MessageCard({ isAdmin }: MessageCardProps) {
   const handleEdit = () => {
     setIsEditing(true)
     setEditMessage(messages[currentIndex].message)
-    setEditCategory(messages[currentIndex].category)
+    setEditCategory(messages[currentIndex].category || '')
   }
 
   const handleSave = () => {
