@@ -2,6 +2,7 @@ import { useState } from 'react'
 import MessageCard from './components/MessageCard'
 import MessageComposer from './components/MessageComposer'
 import FloatingHearts from './components/FloatingHearts'
+import herPhoto from './assets/AGS_Image.jpg'  // ✅ Add this
 
 function App() {
   const [isAdmin, setIsAdmin] = useState(false)
@@ -35,7 +36,7 @@ function App() {
           ) : (
             <div className="bg-gradient-to-br from-slate-900/80 to-purple-900/80 backdrop-blur-xl rounded-3xl p-8 border border-pink-500/20 shadow-2xl shadow-pink-500/10 flex flex-col items-center justify-center">
               <img 
-                src="src/assets/AGS_Image.jpg"
+                src={herPhoto}
                 alt="Her Photo"
                 className="w-full h-[400px] object-cover object-center rounded-2xl border-2 border-pink-500/30 shadow-lg"
                 onError={(e) => {
